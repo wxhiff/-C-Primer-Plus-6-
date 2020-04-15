@@ -1,2 +1,2 @@
 # -C-Primer-Plus-6-
-&emsp;&emsp;学习完了《C Primer Plus》第6版中文版，现在把书上的源代码和自己写的课后编程练习的答案上传上来。
+&emsp;&emsp;学习完了《C Primer Plus》第6版中文版，现在把书上的源代码和自己写的课后编程练习的答案上传上来。答案都是通过自己测试的，但是并没有考虑用什么高深的算法或结构，也不考虑运行效率。我所用的环境是win10，编译器用MinGw。，因为计算机所使用的中文编码方式是GBK，而编译器所用的编码方式是utf-8，所以打印中文是乱码（如果是用IDE，如visual studio没有这个烦恼）。解决问题方法有两种：一是在cmd中运行程序时加上：```-fexec-charset=GBK```。即有一个test.c文件，编译时这样写：```gcc -fexec-charset=GBK -o test.c test```，再运行test.exe可以正常输出中文。二是修改cmd的编码为utf-8，这个网上教程很多。
